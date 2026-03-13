@@ -27,10 +27,10 @@ public class App {
 
         for (Orders o : list) {
             System.out.println(
-                    o.getId() + " " +
-                    o.getItem() + " " +
-                    o.getCost() + " " +
-                    o.getUid() + " " +
+                    o.getId() + " | " +
+                    o.getItem() + " | " +
+                    o.getCost() + " | " +
+                    o.getUid() + " | " +
                     o.getDate()
             );
         }
@@ -39,4 +39,5 @@ public class App {
         session.close();
         factory.close();
     }
+
 }
